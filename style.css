@@ -73,7 +73,6 @@
 }
 body{
     background-color: rgb(17, 17, 17);
-    cursor: pointer;
 }
 .anchor{
     text-decoration: none;
@@ -119,6 +118,7 @@ body{
 }
 .menuicon:hover{
     background-color: #ffb400;
+    cursor: pointer;
 }
 
 .icon{
@@ -188,8 +188,12 @@ body{
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    box-shadow: -3px 2px 20px 6px black;
+
 }
 .moreAboutMe:hover{
     background-color: #ffb400;
+    cursor: pointer;
 }
+
 
